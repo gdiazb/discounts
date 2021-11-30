@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background-color: #ececec;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  padding: 20px;
+  background-color: rgb(231, 216, 75);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+  .title {
+    color: #101297;
+    margin: 0;
+  }
+
+.card {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 13px 0px #eeeeee; 
+  box-shadow: 5px 5px 13px 0px #eeeeee;
+  padding: 20px;
+}
+
+  .form__group {
+    display: flex;
+    align-items: baseline;
+  }
+
+    .form__label {
+      padding-bottom: 16px;
+      width: 36%;
+      margin-right: 10px;
+    }
+
+    .form__input {
+      color: #101297;
+      outline-color: #101297;
+    }
