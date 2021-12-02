@@ -23,7 +23,7 @@ body {
     background-color: #FFA07A; 
     border: groove 1em #C0392B;
     border-radius: 2em;
-    width: 600px;
+    max-width: 600px;
     margin: 10px auto; 
 }
 
