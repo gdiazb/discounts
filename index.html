@@ -8,23 +8,25 @@
   <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-  <header class="">
-    <h1 class="">App de descuentos</h1>
+  <header class="header">
+    <h1 class="header__title">App de descuentos</h1>
   </header>
-  <div class="">
-    <form class="">
-      <div class="">
-        <label class="" for="price">Ingrese el precio full</label>
-        <input class="" id="price" type="text" placeholder="Ej: $100">
+  <div class="container-calculadora">
+    <form>
+      <div>
+        <label class="calculadora__label" for="price">Ingrese el precio full</label>
+        <input class="calculadora__input" id="price" type="text" placeholder="Ej: $100">
       </div>
-      <div class="">
-        <label class="" for="discount">Ingrese el descuento (%)</label>
-        <input class="" id="discount" type="text" placeholder="20">
+      <div>
+        <label class="calculadora__label" for="discount">Ingrese el descuento (%)</label>
+        <input class="calculadora__input" id="discount" type="text" placeholder="20">
       </div>
-      <button type="button" onclick="calcularDescuento()">Calcular</button>
+      <div class="calculadora__container-button">
+        <button class="calculadora__button" type="button" onclick="calcularDescuento()">Calcular</button>
+      </div>
     </form>
-    <p>Precio inicial: <span id="initialPrice"></span></p>
-    <p>Precio final: <span id="finalPrice"></span></p>
+    <p class="txt-final">Precio inicial: <span id="initialPrice"></span></p>
+    <p class="txt-final txt-final--total">Precio final: <span id="finalPrice"></span></p>
   </div>
 
   <script src="./js/index.js"></script>
