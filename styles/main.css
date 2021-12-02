@@ -8,7 +8,7 @@ body {
     background-color: #FFA07A;
     border: groove 1em #C0392B;
     border-radius: 2em;
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto; 
     font-size: 16px;
 }
@@ -33,7 +33,6 @@ body {
     margin: 6px auto;
     margin-left: 50px;
     color: #524f4f;
-    
 }
 .calculadora__container-button {
     text-align: center;
@@ -50,7 +49,6 @@ body {
 }
 
 .button-calcular:hover {
-    opacity: 1;
     color: #C0392B;
 }
 
