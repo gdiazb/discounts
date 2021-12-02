@@ -7,11 +7,11 @@ const coupons = [
   },
   {
       name: "test2",
-      discount: 30,
+      discount: 25,
   },
   {
       name: "test3",
-      discount: 25,
+      discount: 30,
   },
 ];
 
